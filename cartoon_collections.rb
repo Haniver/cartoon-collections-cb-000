@@ -1,4 +1,3 @@
-require 'pry'
 def roll_call_dwarves(dwarves)
   for i in 0..dwarves.length
     puts "#{i+1}. #{dwarves[i]}"
