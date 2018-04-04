@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(dwarves)
   for i in 0..dwarves.length
     puts "#{i+1}. #{dwarves[i]}"
@@ -15,5 +16,7 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.find?{|i| i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]}
+  strings.find?{|i| i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]}  
 end
+
+binding.pry
