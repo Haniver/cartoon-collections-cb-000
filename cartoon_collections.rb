@@ -18,5 +18,3 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings.find{|i| i == cheese_types[0] || i == cheese_types[1] || i == cheese_types[2]}
 end
-
-binding.pry
